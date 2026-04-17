@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #38bdf8;
+}
+
+.Menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.Menu a{
+    background: #1e293b;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.Menu a:hover{
+    background: #38bdf8;
+    color: black;
+}
+
+/* GRUPOS */
+.Grupo{
+    text-align: center;
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.Grupo h2{
+    margin-bottom: 15px;
+}
+
+.Grupo img{
+    width: 40px;
+    margin: 25px;
+    transition: transform 0.2s;
+}
+
+.Grupo img:hover{
+    transform: scale(1.2);
+}
+
+.Qatar{
+    height: 21px;
+}
+
+.Parti{
+    color: white;
+}
+
+.Fechas{
+    text-align: center;
+}
+
+.Partido{
+    text-align: center;
+}
+
+input{
+    width: 30px;
+    height: 30px;
+}
+
+.NombreApellido{
+    width: 200px;
+}
